@@ -12,6 +12,10 @@ test("'dvdf' returns 3", () => {
 	expect(lengthOfLongestSubstring('dvdf')).toEqual(3);
 });
 
-test("'bbb' returns 1", () => {
-	expect(lengthOfLongestSubstring('bbb')).toEqual(1);
+test("'qrsvbspk' returns 1", () => {
+	expect(lengthOfLongestSubstring('qrsvbspk')).toEqual(5);
+});
+
+test("'abba' returns 2", () => {
+	expect(lengthOfLongestSubstring('abba')).toEqual(2);
 });
