@@ -19,3 +19,7 @@ test("'()', '()[]{}', '{[]}' should return true", () => {
 	expect(isValid('()[]{}')).toEqual(true);
 	expect(isValid('{[]}')).toEqual(true);
 });
+
+// test("'()233{}[abc3]' should return true", () => {
+// 	expect(isValid('()233{}[abc3]')).toEqual(true);
+// });
